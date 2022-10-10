@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>text and font classes</title>
+    <title>Bootstrap pactrice</title>
 
 
     <!-- font awesome cdn -->
@@ -23,8 +23,19 @@
 
     <div class="container">
 
-        <header class="bg-success text-white py-3 text-center">
-            <h1>Profile of Mine</h1>
+        <header class="bg-secondary">
+            <div class="row">
+                <div class="col-lg-5 m-auto">
+                    <h1 class="text-white text-center mb-0 py-2">Study With Zisad</h1>
+                </div>
+                <div class="col-lg-7">
+                    <ul class="nav justify-content-center py-3">
+                        <li class="nav-item"><a class="my-link-style text-white nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="my-link-style text-white nav-link" href="#">Tutorial</a></li>
+                        <li class="nav-item"><a class="my-link-style text-white nav-link" href="#">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
         </header>
 
         <main>
@@ -54,26 +65,125 @@
                         <p class="font-italic text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum magnam incidunt dolores earum optio molestias quis sapiente.</p>
                     </div>
                 </div>
+
             </div>
+
+            <!-- about me section -->
+            <div id="ME" class="about-section">
+                <div class="jumbotron pt-2">
+                    <div class="title text-center mb-3">
+                        <h3 class="font-weight-bolder">About Me</h3>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4 text-center">
+                            <img class="rounded-circle img-fluid d-block m-auto border" src="images/zisad.jpg" alt="">
+                        </div>
+                        <div class="col-lg-8">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, voluptatum ab? Ipsam dicta tenetur laudantium, magni ut similique vero perferendis incidunt praesentium iure quo in tempora illum vel dolores odio, veniam
+                                natus eum nihil illo facilis maiores tempore? Quam accusantium eos et dolorum necessitatibus, accusamus minus suscipit atque iste quae! Et inventore sunt deleniti, eum a, dolores rerum officia velit corrupti vel, consectetur
+                            </p>
+                            <!-- collapse example -->
+                            <a class="mb-3 d-block" href="#PU" data-toggle="collapse">learn more</a>
+
+                            <div id="PU" class="collapse p-3">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem sed quisquam repudiandae sequi voluptatibus, aperiam aliquam adipisci nam maiores quia unde necessitatibus veritatis eligendi in laboriosam, officia porro? Explicabo.
+                                </p>
+                            </div>
+                            <!-- end collapse -->
+
+
+                            <!-- button start -->
+                            <div class="btn-group">
+                                <button class="btn btn-outline-primary mb-3">CV Download</button>
+                                <button class="btn btn-outline-primary btn-lg mb-3">CV Download</button>
+                                <a href="#" class="btn btn-outline-primary btn-lg mb-3">CV Download</a>
+                                <a class="btn btn-outline-primary mb-3 btn-lg">CV Download</a>
+                            </div>
+
+                            <!-- button end -->
+                            <div class="alert alert-success alert-dismissible">
+                                <button class="close" data-dismiss="alert"> &times;</button> Have you visited my youtube channel? <a href="#">Visit</a>
+                            </div>
+
+                            <div class="alert alert-primary alert-dismissible">
+                                <button class="close" data-dismiss="alert"> &times;</button> Have you visited my youtube channel? <a href="#">Visit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ends about section -->
+
+                    <!-- customer review section starts here -->
+                    <div class="customer-review bg-light text-center">
+                        <div class="title text-center mb-3">
+                            <h3 class="font-weight-bolder">Customer Review</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <blockquote class="blockquote">
+                                    <i class="p-2 fa-3x fas fa-user-circle"></i>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet est praesentium delectus et consequatur optio. In this website we can learn <abbr title="bootstrap4"> bs5</abbr></p>
+                                    <footer class="blockquote-footer">
+                                        Md Hosen Zisad in <cite>Youtube </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-4">
+                                <blockquote class="blockquote">
+                                    <i class="p-2 fa-3x fas fa-user-circle"></i>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet est praesentium delectus et consequatur optio. In this website we can learn <abbr title="bootstrap4"> bs5</abbr></p>
+                                    <footer class="blockquote-footer">
+                                        Md Hosen Zisad in <cite>Youtube </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-4">
+                                <blockquote class="blockquote">
+                                    <i class="p-2 fa-3x fas fa-user-circle"></i>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet est praesentium delectus et consequatur optio. In this website we can learn <abbr title="bootstrap4"> bs5</abbr></p>
+                                    <footer class="blockquote-footer">
+                                        Md Hosen Zisad in <cite>Youtube </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- customer review section ends here -->
+
+                    <!-- student list section starts here -->
+                    <div class="student-list">
+                        <ul class="list-group">
+                            <li class="active list-group-item bg-primary text-white">Md Hosen Zisad</li>
+                            <li class="disabled list-group-item bg-success text-white">Irin</li>
+                            <li class="list-group-item bg-secondary text-white">Farjana Sultana</li>
+                            <a href="#" class="list-group-item list-group-item-action bg-primary text-white text-center">Kit</a>
+                        </ul>
+                    </div>
+                    <!-- student list section ends here -->
+
+
+
         </main>
 
 
+        <!-- pagination example -->
         <footer>
-
+            <ul class="pagination py-3 justify-content-center">
+                <li class="page-item"><a class="page-link" href="Bootstrap1.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="#ME">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+            </ul>
         </footer>
 
-    </div>
-    <!-- danger button -->
-    <div class="alert alert-danger alert-dismissible" role="alert">
-        <button class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> button
-    </div>
-    <!-- danger button -->
+        </div>
 
 
-    <!-- bootstrap js, jquery, popper -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+        <!-- bootstrap js, jquery, popper -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 
 </html>
